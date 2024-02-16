@@ -14,6 +14,10 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+.inactive {
+display: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -64,6 +68,7 @@ nav {
 
 .navbar-email {
   color: var(--very-light-pink);
+  cursor: pointer;
   font-size: var(--sm);
   margin-right: 12px;
 }
